@@ -6,6 +6,7 @@ perl:
 
 arch: ppc64le
 
-jobs:
-  include:
-    - before_script: ls
+- before_install: 
+  - ls
+  - tar --help
+  - tar --version
