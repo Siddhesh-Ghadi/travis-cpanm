@@ -6,7 +6,7 @@ perl:
 
 arch: ppc64le
 
-- before_install: 
+before_install: 
   - ls
   - tar --help
   - tar --version
